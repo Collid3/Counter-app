@@ -1,0 +1,70 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.subway-count {
+	height: 100vh;
+	width: 100vw;
+
+	font-size: 8rem;
+	font-weight: bold;
+	text-align: center;
+
+	background-image: url("picture/pexels-pixabay-264547.jpg");
+	background-size: cover;
+	background-position: top;
+}
+
+.header {
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-fill-color: yellow;
+}
+
+#counter {
+	-webkit-text-fill-color: yellow;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+button {
+	padding: 1rem 6rem;
+	border-radius: 1rem;
+	color: white;
+	font-weight: bold;
+}
+
+button :hover {
+	padding: 2rem 7rem;
+	border: 5rem solid black;
+}
+
+#increment-btn {
+	background-color: blue;
+}
+
+#save-btn {
+	background-color: green;
+}
+
+#decrement-btn {
+	background-color: darkred;
+}
+
+#entries {
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: yellow;
+	margin-top: 3rem;
+}
+
+#weeks {
+	font-size: 2rem;
+	color: white;
+}
